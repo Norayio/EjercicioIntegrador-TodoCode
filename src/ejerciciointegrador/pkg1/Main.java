@@ -1,5 +1,9 @@
 package ejerciciointegrador.pkg1;
 
+import ejerciciointegrador.pkg1.logica.Arbol;
+import ejerciciointegrador.pkg1.logica.Arbusto;
+import ejerciciointegrador.pkg1.logica.Flor;
+
 /**
  *
  * @author Norayio
@@ -8,6 +12,11 @@ package ejerciciointegrador.pkg1;
 public class Main {
 
     public static void main(String[] args) {
+        
+        // creación de objetos de cada clase hija
+        Arbol arbol = new Arbol( );
+        Flor flor = new Flor( );
+        Arbusto arbusto = new Arbusto( );
         
         
         
