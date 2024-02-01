@@ -18,9 +18,10 @@ public class Main {
         Flor flor = new Flor( );
         Arbusto arbusto = new Arbusto( );
         
-        
-        
-        
+        // usando el metodo de la interfaz en cada una de las clases hijas
+        arbol.holaSoyUn( );
+        flor.holaSoyUn( );
+        arbusto.holaSoyUn( );
         
         
         

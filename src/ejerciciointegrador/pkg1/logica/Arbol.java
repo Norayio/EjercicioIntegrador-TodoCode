@@ -27,16 +27,10 @@ public class Arbol  extends Planta implements Ihola {
     }
     
     
-    
-    
-    
-    
-    
-    
 
     @Override
     public void holaSoyUn() {
-        System.out.println("Hola, soy un árbol");
+        System.out.println("Hola, soy un arbol");
     }
     
     
