@@ -20,9 +20,17 @@ public class Main {
         
         // usando el metodo de la interfaz en cada una de las clases hijas
         arbol.holaSoyUn( );
-        flor.holaSoyUn( );
-        arbusto.holaSoyUn( );
+        arbol.comoSoy( );
         
+        System.out.println("");
+        
+        flor.holaSoyUn( );
+        flor.comoSoy( );
+        
+        System.out.println("");
+        
+        arbusto.holaSoyUn( );
+        arbusto.comoSoy( );
         
         
         

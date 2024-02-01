@@ -32,6 +32,11 @@ public class Arbusto extends Planta implements Ihola {
     public void holaSoyUn() {
         System.out.println("Hola, soy un arbusto");
     }
+
+    @Override
+    public void comoSoy() {
+         System.out.println("Hola, soy un arbusto y soy frondoso");
+    }
     
     
     

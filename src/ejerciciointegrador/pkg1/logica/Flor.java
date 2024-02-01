@@ -36,6 +36,11 @@ public class Flor extends Planta implements Ihola {
     public void holaSoyUn() {
         System.out.println("Hola, soun una flor");
     }
+
+    @Override
+    public void comoSoy() {
+        System.out.println("Hola, soy una flor y soy muy pequeña y fina");
+    }
     
 
 

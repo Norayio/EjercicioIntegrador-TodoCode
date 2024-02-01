@@ -62,9 +62,8 @@ public abstract class Planta {
     
     
     
-
-
-    
+    // metodo protected para probar la visibilidad y el encapsulamiento
+    protected abstract void comoSoy( );
     
     
     
